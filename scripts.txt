@@ -1,0 +1,4 @@
+mv .\osu.Game.Rulesets.FlashVoltex\bin\Debug\netstandard2.1\osu.Game.Rulesets.FlashVoltex.dll C:\Users\Ivan\AppData\Roaming\osu\rulesets 
+dotnet build osu.Game.Rulesets.FlashVoltex --no-dependencies
+
+Copy-Item .\osu.Game.Rulesets.FlashVoltex\bin\Debug\netstandard2.1\osu.Game.Rulesets.FlashVoltex.dll C:\Users\Ivan\AppData\Roaming\osu\rulesets 
